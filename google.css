@@ -1,0 +1,7 @@
+#img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 250px;
+    top: 250px;
+}
