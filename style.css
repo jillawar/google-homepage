@@ -1,7 +1,52 @@
 #img {
-    position: absolute;
+
     display: flex;
-    align-items: center;
-    left: 250px;
-    top: 250px;
+    justify-content: center;
+    left: auto;
+    top: 30%;
+}
+
+.img {
+    margin-top: 15px;
+}
+
+body {
+    background-color: #fff;
+}
+
+#search {
+    width: 550px;
+    border-radius: 25px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: large;
+    font-family: Arial, sans-serif;
+    border-color: grey;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+    padding: 20px;
+    outline: none;
+}
+
+#search:hover {
+
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 2px 2px 4px 4px rgb(179, 169, 169);
+
+}
+
+#search:focus {
+    outline: none;
+}
+
+.main-center {
+    margin-top: 150px;
+
 }
