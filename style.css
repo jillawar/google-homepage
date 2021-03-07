@@ -78,22 +78,7 @@ li {
 
 }
 
-#sign {
-    text-decoration: none;
-    cursor: pointer;
-    background-color: #1a738e;
-    color: #fff;
-    font-size: large;
-    font-weight: 300;
-    border-radius: 5px;
-    margin-left: 8px;
 
-}
-
-.sign {
-    width: 50px;
-    height: 150px;
-}
 
 
 .imge {
@@ -117,5 +102,52 @@ li {
 
 .imgg {
     display: inline;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.luck button {
+    border-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.85;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+
+
+#luck {
+    display: flex;
+    justify-content: center;
+}
+
+.LL {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.LR {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.LL:hover {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #fef9ff;
+    background-color: #fff;
+    border: 0.5px solid #f8f9ff;
+}
+
+.LR:hover {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #fef9ff;
+    background-color: #fff;
+    border: 0.5px solid #f8f9ff;
+}
+
+.offer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
 }
