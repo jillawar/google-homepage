@@ -17,7 +17,7 @@ body a {
 .top {
     display: inline-block;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .top-left {
@@ -72,7 +72,7 @@ body a {
 }
 
 .top li a {
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 .top li {
@@ -121,8 +121,27 @@ body a {
     font-size: 15px;
     text-align: center;
     width: 50px;
-    height: 35px;
-    margin: 5px;
-    padding: 5px;
+    height: 50px;
+    margin: 5px 5px 10px 5px;
+    padding: 10px;
     border-radius: 4px;
 }
+
+.belowcenter a {
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(209, 209, 209);
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#sign:hover {
+    text-decoration: none;
+    background-color: #3080ff;
+}
+
+#dots:hover {
+    cursor: pointer;
+}
+
+.belowcenter a:hover {}
